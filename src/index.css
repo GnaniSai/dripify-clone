@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "thicccboi";
+  src: url("/fonts/Webfont/THICCCBOI-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: thicccboi;
+}

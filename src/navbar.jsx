@@ -1,0 +1,40 @@
+import logo from "./assets/logo.svg";
+import down from "./assets/down.svg";
+import menu from "./assets/menu.svg";
+function Navbar() {
+  return (
+    <div className="w-[80%] flex justify-center items-center p-4 text-white">
+      <div className="w-full flex justify-between items-center">
+        <ul className="flex gap-7 items-center">
+          <li>
+            <img src={logo} alt="" className="w-35" />
+          </li>
+          <li className="flex items-center gap-1 max-md:hidden">
+            <span>Software</span> <img src={down} alt="down" className="w-5" />
+          </li>
+          <li className="flex items-center gap-1 max-md:hidden">
+            <span>Resources</span> <img src={down} alt="down" className="w-5" />
+          </li>
+          <li className="max-md:hidden">
+            <span>Pricing</span>
+          </li>
+          <li className="max-md:hidden">
+            <span>Partners</span>
+          </li>
+        </ul>
+        <ul className="flex gap-7 items-center">
+          <li className="max-xl:hidden">Book Demo</li>
+          <li className="max-xl:hidden">Login</li>
+          <li className="bg-white text-black pt-3 pb-3 pl-7 pr-7 font-bold rounded-lg max-xl:hidden">
+            Start for free
+          </li>
+          <li>
+            <img src={menu} alt="menu" className="hidden max-xl:flex" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
