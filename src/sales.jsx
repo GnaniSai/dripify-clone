@@ -16,7 +16,7 @@ function Sales() {
         </p>
       </div>
 
-      <div className="flex gap-4 items-center justify-center w-[80%] flex-wrap max-sm:hidden max-xl:w-[95%] max-lg:w-[98%]">
+      <div className="flex gap-4 items-center justify-center w-[80%] flex-wrap max-md:hidden max-xl:w-[95%] max-lg:w-[98%]">
         <img src={brand1} alt="brand1" />
         <img src={brand2} alt="brand1" />
         <img src={brand2} alt="brand1" />
@@ -39,8 +39,8 @@ function Sales() {
         <img src={brand2} alt="brand1" />
       </div>
 
-      <div className="gap-4 items-center w-sull flex-wrap hidden max-sm:flex">
-        <marquee behavior="" direction="left" className="hidden max-sm:block">
+      <div className="gap-4 items-center w-sull flex-wrap hidden max-md:flex">
+        <marquee behavior="" direction="left" className="hidden max-md:block">
           <div className="flex">
             <img src={brand1} alt="brand1" />
             <img src={brand2} alt="brand1" />
@@ -55,7 +55,7 @@ function Sales() {
           </div>
         </marquee>
 
-        <marquee behavior="" direction="right" className="hidden max-sm:block">
+        <marquee behavior="" direction="right" className="hidden max-md:block">
           <div className="flex">
             <img src={brand8} alt="brand1" />
             <img src={brand6} alt="brand1" />
