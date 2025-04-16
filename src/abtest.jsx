@@ -13,7 +13,7 @@ function ABTest() {
 
         <div className="flex flex-col gap-5 w-[90%] mt-4">
           <div>
-            <span className="text-xs pr-2 pl-3 pt-2 pb-2 bg-[#7760f91a] text-[#7760f9] rounded-2xl font-bold">
+            <span className="text-xs pr-3 pl-3 pt-2 pb-2 bg-[#7760f91a] text-[#7760f9] text-nowrap rounded-2xl font-bold">
               COMING SOON
             </span>
           </div>
