@@ -41,7 +41,7 @@ function Hero() {
             </button>
           </div>
 
-          <div className="flex items-center gap-4 text-white text-sm max-sm:text-xs max-sm:gap-2">
+          <div className="flex items-center justify-center gap-4 text-white text-sm max-sm:text-xs max-sm:gap-2 flex-wrap">
             <p className="flex gap-2 items-center">
               <img src={tick} alt="tick" className="w-4 max-sm:hidden" />
               One Minute Setup
