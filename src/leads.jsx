@@ -12,28 +12,28 @@ function Leads() {
         </div>
 
         <div className="flex max-sm:flex-col items-center justify-between w-full mt-10 gap-10 flex-wrap">
-          <div className="w-[30%] max-sm:w-[50%] h-[20vh] bg-[#f2f0ff5a] rounded-2xl flex flex-col items-center justify-center gap-3">
+          <div className="w-[30%] max-sm:w-[50%] h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
             <p className="font-bold text-6xl">9000</p>
             <span className="text-gray-500 text-sm">Leads reached per mo.</span>
           </div>
-          <div className="w-[30%]  max-sm:w-[50%]  h-[20vh] bg-[#f2f0ff5a] rounded-2xl flex flex-col items-center justify-center gap-3">
+          <div className="w-[30%]  max-sm:w-[50%]  h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
             <p className="font-bold text-6xl">+182%</p>
             <span className="text-gray-500 text-sm">Close rate increase </span>
           </div>
-          <div className="w-[30%]  max-sm:w-[50%]  h-[20vh] bg-[#f2f0ff5a] rounded-2xl flex flex-col items-center justify-center gap-3">
+          <div className="w-[30%]  max-sm:w-[50%]  h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
             <p className="font-bold text-6xl">550</p>
             <span className="text-gray-500 text-sm">
               Replies received per mo.
             </span>
           </div>
           <div className="w-full flex max-sm:flex-col items-center justify-between mt-5 gap-5">
-            <div className="w-full h-[20vh] bg-[#f2f0ff5a] rounded-2xl flex flex-col items-center justify-center gap-3">
+            <div className="w-full h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
               <p className="font-bold text-6xl">X10</p>
               <span className="text-gray-500 text-sm">
                 Overall productivity
               </span>
             </div>
-            <div className="w-full h-[20vh] bg-[#f2f0ff5a] rounded-2xl flex flex-col items-center justify-center gap-3">
+            <div className="w-full h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
               <p className="font-bold text-6xl">1000%</p>
               <span className="text-gray-500 text-sm">More ROI</span>
             </div>
