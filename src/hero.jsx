@@ -11,23 +11,23 @@ function Hero() {
 
       <div className="flex flex-col gap-6 items-center max-sm:items-start relative">
         <div className="max-sm:w-full max-sm:pl-12">
-          <img src={reviews} alt="reviews"className="max-sm:w-[80%]"/>
+          <img src={reviews} alt="reviews" className="max-sm:w-[80%]" />
         </div>
 
-        <div className="w-[60%] max-sm:w-full">
-          <h1 className="text-7xl max-sm:text-5xl max-sm:text-start max-md:text-6xl text-center text-white font-extrabold tracking-wide leading-[1.2] p-2">
+        <div className="w-[60%] max-lg:w-[87%] max-xl:w-[80%] max-sm:w-full">
+          <h1 className="text-7xl max-sm:text-5xl  max-sm:text-start max-xl:text-6xl text-center text-white font-extrabold tracking-wide leading-[1.2] p-2">
             You Only Need a Single Tool to Crush Sales
           </h1>
         </div>
 
-        <div className="w-[35%] p-2 max-sm:w-full">
+        <div className="w-[35%] max-xl:w-[55%] max-lg:w-[67%] p-2 max-sm:w-full">
           <h2 className="text-lg text-center max-sm:text-start text-white leading-[1.5]">
             Reach hundreds of prospects per day on LinkedIn & through Email and
             close more deals on complete autopilot
           </h2>
         </div>
 
-        <div className="flex flex-col gap-3 items-center max-sm:w-full justify-center p-2 w-[35%]">
+        <div className="flex flex-col gap-3 items-center max-sm:w-full justify-center p-2 w-[35%] max-xl:w-[45%] max-lg:w-[60%]">
           <div className="flex gap-4 items-center border-2 border-white rounded-xl p-1.5 bg-white w-full">
             <input
               type="email"
@@ -71,7 +71,7 @@ function Hero() {
               autoPlay={true}
               loop={true}
               muted
-              className="rounded-2xl w-[70%] max-sm:w-[93%]"
+              className="rounded-2xl w-[70%] max-xl:w-[80%] max-lg:w-[90%] max-sm:w-[93%]"
             ></video>
           </div>
         </div>

@@ -6,12 +6,12 @@ import ai from "./assets/ai.svg";
 function Outreach() {
   return (
     <div className="mt-30 flex justify-center items-center">
-      <div className="w-[78%] flex flex-col gap-3 justify-center items-center max-sm:w-full">
-        <div className="flex items-center justify-center flex-col gap-3 w-[65%] max-sm:w-full">
-          <h2 className="text-5xl max-sm:text-2xl text-center leading-[-1.3] text-gray-900">
+      <div className="w-[78%] max-lg:w-[85%] flex flex-col gap-3 justify-center items-center max-sm:w-full">
+        <div className="flex items-center justify-center flex-col gap-3 w-[65%] max-xl:w-[85%] max-lg:w-[90%] max-sm:w-full">
+          <h2 className="text-5xl max-sm:text-2xl max-lg:text-4xl text-center leading-[-1.3] text-gray-900">
             Hyper-personalize your outreach
           </h2>
-          <p className="text-md text-gray-600 text-center">
+          <p className="text-md text-gray-600 text-center max-lg:text-sm">
             Sending hundreds of generic LinkedIn messages and emails to your
             leads won’t make a difference today. Due to the advanced
             personalization capabilities of Dripify, you can significantly
@@ -23,8 +23,8 @@ function Outreach() {
           <img src={outreach} alt="outreach" />
         </div>
 
-        <div className="w-full flex max-sm:flex-col max-sm:gap-5 justify-around mt-10 flex-wrap">
-          <div className="flex items-start  gap-4 w-[20%] max-sm:w-full">
+        <div className="w-full flex max-sm:flex-col max-sm:gap-5 justify-between mt-10 flex-wrap">
+          <div className="flex items-start  gap-4 w-[25%] max-lg:w-[50%] max-lg:p-2 max-sm:w-full">
             <div>
               <img src={message} alt="message" className="w-[30px]" />
             </div>
@@ -34,7 +34,7 @@ function Outreach() {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[20%] max-sm:w-full">
+          <div className="flex items-start gap-4 w-[25%] max-lg:w-[50%] max-lg:p-2 max-sm:w-full">
             <div>
               <img src={ai} alt="ai" className="w-[30px]" />
             </div>
@@ -42,13 +42,13 @@ function Outreach() {
               <p className="w-full">
                 Maximize your response rate with AI-powered unique
                 personalization
-                <span className="text-xs pr-3 pl-3 pt-2 pb-2 bg-[#7760f91a] text-[#7760f9] ml-1 rounded-2xl text-nowrap font-bold">
-                  COMING SOON
-                </span>
               </p>
+              <span className="text-xs pr-3 pl-3 pt-2 pb-2 bg-[#7760f91a] text-[#7760f9] mt-2 rounded-2xl text-nowrap font-bold">
+                COMING SOON
+              </span>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[20%] max-sm:w-full">
+          <div className="flex items-start gap-4 w-[25%] max-lg:w-[50%] max-lg:p-2 max-sm:w-full">
             <div>
               <img src={secure} alt="secure" className="w-[30px]" />
             </div>
@@ -59,7 +59,7 @@ function Outreach() {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[20%] max-sm:w-full">
+          <div className="flex items-start gap-4 w-[25%] max-lg:w-[50%] max-lg:p-2 max-sm:w-full">
             <div>
               <img src={text} alt="text" className="w-[30px]" />
             </div>

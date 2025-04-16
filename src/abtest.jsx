@@ -6,26 +6,32 @@ import ai from "./assets/ai.svg";
 function ABTest() {
   return (
     <div className="flex gap-6 justify-center items-center mt-30 mb-30">
-      <div className="w-[80%] flex max-sm:flex-col max-sm:w-full max-sm:items-center  justify-between gap-15">
-        <div className="w-full">
-          <img src={abtest} alt="abtest" className="w-[85%] max-sm:w-full" />
+      <div className="w-[80%] max-xl:w-[90%] max-lg:w-[95%] flex max-sm:flex-col max-sm:w-full max-sm:items-center  justify-between gap-15 max-xl:gap-10">
+        <div className="w-full self-center">
+          <img
+            src={abtest}
+            alt="abtest"
+            className="w-[85%] max-lg:w-[90%] max-sm:w-full"
+          />
         </div>
 
-        <div className="flex flex-col gap-5 w-[90%] mt-4">
+        <div className="flex flex-col max-xl:gap-3 gap-5 w-[90%]  mt-4">
           <div>
             <span className="text-xs pr-3 pl-3 pt-2 pb-2 bg-[#7760f91a] text-[#7760f9] text-nowrap rounded-2xl font-bold">
               COMING SOON
             </span>
           </div>
-          <h2 className="text-5xl max-sm:text-3xl">A/B test your message</h2>
+          <h2 className="text-5xl max-xl:text-4xl max-lg:text-3xl max-sm:text-2xl">
+            A/B test your message
+          </h2>
           <p className="text-gray-500">
             Test different versions of your emails, LinkedIn messages and
             connection requests to identify the winner variant that produces the
             best values for the performance metrics
           </p>
 
-          <div className="w-full flex max-sm:flex-col  justify-around mt-10 flex-wrap">
-            <div className="flex items-start  gap-4 w-[50%] mb-10 max-sm:w-full">
+          <div className="w-full flex max-sm:flex-col  justify-around mt-10 max-xl:mt-5 flex-wrap">
+            <div className="flex items-start  gap-4 w-[50%] max-lg:w-full mb-10 max-lg:mb-3 max-sm:w-full">
               <div>
                 <img src={message} alt="message" className="w-[30px]" />
               </div>
@@ -35,7 +41,7 @@ function ABTest() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-4 w-[50%] mb-10 max-sm:w-full">
+            <div className="flex items-start gap-4 w-[50%] max-lg:w-full mb-10 max-lg:mb-3 max-sm:w-full">
               <div>
                 <img src={ai} alt="ai" className="w-[30px]" />
               </div>
@@ -46,7 +52,7 @@ function ABTest() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-4 w-[50%] max-sm:w-full">
+            <div className="flex items-start gap-4 w-[50%] max-lg:w-full max-sm:w-full">
               <div>
                 <img src={secure} alt="secure" className="w-[30px]" />
               </div>
@@ -57,7 +63,7 @@ function ABTest() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start gap-4 w-[50%] max-sm:w-full">
+            <div className="flex items-start gap-4 w-[50%] max-lg:w-full max-lg:mt-3 max-sm:w-full">
               <div>
                 <img src={text} alt="text" className="w-[30px]" />
               </div>
@@ -70,7 +76,7 @@ function ABTest() {
             </div>
           </div>
 
-          <div className="flex items-center w-full mt-5">
+          <div className="flex items-center w-full max-xl:mt-3 mt-5">
             <a
               href="#"
               className="pl-7 pr-7 pt-3 pb-3 font-bold rounded-lg border-1 border-gray-400 text-md bg-white"

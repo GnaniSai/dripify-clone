@@ -8,7 +8,7 @@ import ABTest from "./abtest";
 import Work from "./work";
 function App() {
   return (
-    <div className="p-6 max-sm:p-1">
+    <div className="m-6 max-sm:m-1.5 max-xl:m-4 max-lg:m-3">
       <Hero />
       <Sales />
       <USP />

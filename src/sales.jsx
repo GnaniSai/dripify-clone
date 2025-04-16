@@ -16,7 +16,7 @@ function Sales() {
         </p>
       </div>
 
-      <div className="flex gap-4 items-center w-[80%] flex-wrap max-sm:hidden">
+      <div className="flex gap-4 items-center justify-center w-[80%] flex-wrap max-sm:hidden max-xl:w-[95%] max-lg:w-[98%]">
         <img src={brand1} alt="brand1" />
         <img src={brand2} alt="brand1" />
         <img src={brand2} alt="brand1" />
