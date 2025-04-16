@@ -6,13 +6,13 @@ import inbox from "./assets/inbox.png";
 function USP() {
   return (
     <div className="flex flex-col gap-3 items-center mt-20 mb-20">
-      <div className="w-[65%] mb-6">
-        <h2 className="text-5xl text-center text-gray-900 leading-[1.5]">
+      <div className="w-[65%] mb-6 max-sm:w-full">
+        <h2 className="text-5xl max-sm:text-2xl text-center text-gray-900 leading-[1.5]">
           Run cold outreach campaigns on LinkedIn and through Email. Hassle-free
         </h2>
       </div>
 
-      <div className="w-[80%] flex flex-col gap-6 text-xl text-gray-500">
+      <div className="w-[80%] flex flex-col gap-6 text-xl text-gray-500 max-sm:hidden">
         <div className="flex gap-4 justify-between items-center w-[85%]">
           <span className="flex gap-2 items-center text-gray-700">
             <img src={drip} alt="drip" /> Drip campaigns
@@ -32,13 +32,13 @@ function USP() {
         </div>
       </div>
 
-      <div className="w-[80%] h-[80vh] bg-[#f2f0ff] rounded-2xl mt-6">
-        <div className="flex items-center justify-between w-full h-full">
-          <div className="w-[40%] flex flex-col gap-10 p-20">
-            <h2 className="text-3xl font-bold">
+      <div className="w-[80%] h-[80vh] max-sm:h-full max-sm:w-full bg-[#f2f0ff] rounded-2xl mt-6">
+        <div className="flex items-center justify-between  max-sm:flex-col w-full h-full">
+          <div className="w-[40%] max-sm:w-full flex flex-col gap-10 p-20 max-sm:p-5">
+            <h2 className="text-3xl font-bold w-full">
               Automate sales on LinkedIn & email
             </h2>
-            <p className="text-md text-gray-600">
+            <p className="text-md text-gray-600 w-full">
               Contact thousands of prospects per month on LinkedIn and via Email
               through fully automated & hyper-personalized sequence campaigns
             </p>
@@ -52,7 +52,7 @@ function USP() {
             </div>
           </div>
 
-          <div className="h-full">
+          <div className="h-full max-sm:hidden">
             <img src={uspBackground} alt="uspBackground" className="h-full" />
           </div>
         </div>
