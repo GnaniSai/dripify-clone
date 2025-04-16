@@ -26,7 +26,7 @@ function Leads() {
               Replies received per mo.
             </span>
           </div>
-          <div className="w-full flex max-sm:flex-col items-center justify-between mt-5 gap-5">
+          <div className="w-full flex max-sm:flex-col items-center justify-between mt-5 gap-16">
             <div className="w-full h-[20vh] rounded-2xl flex flex-col items-center justify-center gap-3">
               <p className="font-bold text-6xl">X10</p>
               <span className="text-gray-500 text-sm">
